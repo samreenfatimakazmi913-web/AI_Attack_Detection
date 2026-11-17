@@ -1,0 +1,28 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Original datasets
+datasets/
+
+# Large processed datasets
+results/*.csv
+results/splits/
+results/imputed/
+
+# Trained models
+models/
+
+# Temporary files
+*.tmp
+
+# Jupyter files
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
